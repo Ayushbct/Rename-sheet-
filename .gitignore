@@ -1,0 +1,51 @@
+# Virtual Environments
+.venv*
+venv/
+env/
+ENV/
+.env
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Build & Distribution
+build/
+dist/
+*.egg-info/
+*.eggs/
+.eggs/
+
+# PyInstaller
+*.manifest
+*.spec
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Input files (user data)
+input_files/
+
+# Compiled
+*.pyd
+*.pyo
+*.pyc
+
+# PyInstaller output
+dist/Excel_Processor.exe
+dist/Excel_Processor
+
+# Build artifacts
+warn-*.txt
+xref-*.html
